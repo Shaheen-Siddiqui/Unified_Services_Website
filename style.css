@@ -94,7 +94,7 @@ button, input, textarea, select { font: inherit; }
 .orbit-center { position:absolute; left:50%; top:50%; transform:translate(-50%,-50%); width:86px;height:86px;border-radius:50%;display:grid;place-items:center;background:#fff;color:var(--navy);font-family:"Playfair Display",serif;font-size:20px;font-weight:700;box-shadow:0 0 0 9px rgba(230,201,137,.11); }
 .orbit-item { position:absolute; width:76px; height:76px; border-radius:20px; background:rgba(255,255,255,.09); border:1px solid rgba(255,255,255,.14); display:grid; place-items:center; text-align:center; font-size:21px; }
 .orbit-item span { display:block; margin-top:-8px; font-size:9px; color:#dce2eb; letter-spacing:.3px; }
-.item-1{top:-16px;left:122px}.item-2{top:68px;right:-17px}.item-3{bottom:19px;right:16px}.item-4{bottom:-12px;left:122px}.item-5{top:82px;left:-19px}
+.item-1{top:-16px;left:122px}.item-2{top:68px;right:-17px}.item-3{bottom:19px;right:16px}.item-4{bottom:-9px;left:50px}.item-5{top:82px;left:-19px}
 .card-bottom { border-top:1px solid rgba(255,255,255,.11); padding-top:18px; text-align:center; }
 .card-bottom span { display:block; font-size:12px; color:#bcc6d5; }
 .card-bottom strong { display:block; margin-top:2px; font-family:"Playfair Display",serif; font-size:24px; color:var(--gold-light); }

@@ -37,7 +37,7 @@ form.addEventListener("submit", (event) => {
 
   // Message to be sent on WhatsApp
   const whatsappMessage =
-`*AYAT UNIFIED SERVICES - New Enquiry*
+`*AAYAT UNIFIED SERVICES - New Enquiry*
 
 *Name:* ${name}
 *Phone:* ${phone}
