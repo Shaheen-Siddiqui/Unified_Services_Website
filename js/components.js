@@ -20,9 +20,6 @@ document.addEventListener("DOMContentLoaded", async () => {
 
             navbarContainer.innerHTML = navbarHTML;
 
-            console.log("✅ Navbar loaded");
-
-
             /* =========================================
                MOBILE MENU
             ========================================= */
@@ -44,11 +41,6 @@ document.addEventListener("DOMContentLoaded", async () => {
                     menuToggle.setAttribute(
                         "aria-expanded",
                         String(isOpen)
-                    );
-
-                    console.log(
-                        "Mobile menu:",
-                        isOpen ? "OPEN" : "CLOSED"
                     );
 
                 });
@@ -73,14 +65,10 @@ document.addEventListener("DOMContentLoaded", async () => {
 
             } else {
 
-                console.error(
-                    "❌ menuToggle or mainNav not found"
-                );
-
+              
             }
 
         } catch (error) {
-
             console.error(
                 "❌ Navbar error:",
                 error
@@ -112,9 +100,6 @@ document.addEventListener("DOMContentLoaded", async () => {
 
             footerContainer.innerHTML =
                 footerHTML;
-
-
-            console.log("✅ Footer loaded");
 
 
             /* Current Year */
